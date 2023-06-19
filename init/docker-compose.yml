@@ -1,5 +1,5 @@
 services:
-  rails:
+  init:
     build: .
     image: init
     restart: always
