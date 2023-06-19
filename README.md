@@ -3,6 +3,6 @@
 ## Creating a new rails project
 
 ```bash
-docker compose run --build rails-init rails new .
-sudo chown -R jake:jake *
+docker compose run --build init rails new .
+sudo chown -R 1000:1000 ../*
 ```
