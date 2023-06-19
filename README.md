@@ -3,5 +3,6 @@
 ## Creating a new rails project
 
 ```bash
-docker run -v "$PWD" -it ruby:latest /bin/bash
+docker compose run --build rails-init rails new .
+sudo chown -R jake:jake *
 ```
