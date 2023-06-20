@@ -12,14 +12,14 @@ cd init
 docker compose run --build --rm init rails new .
 ```
 
+```bash
+cd ..
+```
+
 Change the UID:GID to your user.
 
 ```bash
-sudo chown -R 1000:1000 ../*
-```
-
-```bash
-cd ..
+sudo chown -R 1000:1000 *
 ```
 
 ```bash
